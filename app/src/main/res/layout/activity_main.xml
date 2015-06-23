@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:touchscreenBlocksFocus="true"
+    android:background="#E0F7FA">
+
+    <TextView android:text="@string/home_title" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_title"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="10sp"
+        android:textSize="25sp"
+        android:textColor="#37474F" />
+
+    <Button
+        android:text="@string/project1_title"
+        android:id="@+id/btn_project1"
+        android:layout_below="@+id/home_title"
+        style="@style/Nanodegree.Home.Button"
+        android:onClick="showMessage" />
+
+    <Button
+        android:text="@string/project2_title"
+        android:id="@+id/btn_project2"
+        android:layout_below="@+id/btn_project1"
+        style="@style/Nanodegree.Home.Button"
+        android:onClick="showMessage" />
+
+    <Button
+        android:text="@string/project3_title"
+        android:id="@+id/btn_project3"
+        android:layout_below="@+id/btn_project2"
+        style="@style/Nanodegree.Home.Button"
+        android:onClick="showMessage" />
+
+    <Button
+        android:text="@string/project4_title"
+        android:id="@+id/btn_project4"
+        android:layout_below="@+id/btn_project3"
+        style="@style/Nanodegree.Home.Button"
+        android:onClick="showMessage" />
+
+    <Button
+        android:text="@string/project5_title"
+        android:id="@+id/btn_project5"
+        android:layout_below="@+id/btn_project4"
+        style="@style/Nanodegree.Home.Button"
+        android:onClick="showMessage" />
+
+    <Button
+        android:text="@string/project6_title"
+        android:id="@+id/btn_project6"
+        android:layout_below="@+id/btn_project5"
+        style="@style/Nanodegree.Home.Button"
+        android:onClick="showMessage"
+        android:background="#B71C1C"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
