@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="activity_bg">#E0F7FA</color>
+    <color name="light_text">#FFFFFF</color>
+    <color name="title_text">#37474F</color>
+    <color name="critical_btn_bg">#B71C1C</color>
+    <color name="normal_btn_bg">#F08C35</color>
+    
+</resources>
